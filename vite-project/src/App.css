@@ -43,8 +43,13 @@
 
 /* FORM HERE ON IS MY CODE */
 * {
-  background-color: #5865f2;
+  background-color: #3f4bcd;
   font-family: 'Roboto', sans-serif;
+}
+.App {
+  width: 857px;
+  max-height: 651px;
+  border: solid 2px #5864ed;
 }
 
 h1 {
@@ -53,11 +58,42 @@ h1 {
 
 nav,
 nav img{
-  height: 20px;
+  height: 30px;
 }
 
 nav{
-  padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+#mainArea {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: left;
+}
+
+#buttonsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+#macBTN {
+  color: black;
+  background-color: white;
+}
+#openBrowserBTN {
+  
+  background-color: #1a1a1a;
+}
+
+#imgDiv{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#backgroundIMG {
+  max-height: 300px;
 }
